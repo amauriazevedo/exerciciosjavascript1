@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 5 - Criar um software em JS, que receba um número e mostre o valor anterior e o valor posterior.
+Exemplo:
+Número: 50;
+Anterior: 49;
+Posterior: 51;
+->Nome do arquivo: ex_5.html -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 05</title>
+  <script>
+    var n1 = parseInt(prompt('Digite um número?'))
+    var anterior = (n1 - 1)
+    var posterior = (n1 + 1)
+    alert("O número digitado é : " + n1)
+    alert("O número anterior é: " + anterior)
+    alert("O número posterior é: " + posterior)
+
+    function refreshPage() {
+      window.location.reload();
+    }
+
+  </script>
+</head>
+
+<body>
+  <h1>Exercício 05<h1>
+      <button type="submit" onClick="refreshPage()">Refresh Button</button>
+
+</body>
+
+</html>

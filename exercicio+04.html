@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 4 - Criar um software em JS, que receba uma quantidade de dias e uma quantidade horas, calcule e informe a duração total em número de horas de viagem.
+Exemplo:
+Qtd. de dias: 2;
+Qtd. de horas: 10;
+Total de horas: 58;
+->Nome do arquivo: ex_4.html -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 04</title>
+  <script>
+    var n1 = parseInt(prompt('Digite a quantidade de dias?'))
+    var n2 = parseFloat(prompt('Digite a quantidade de horas?'))
+    var dia = (n1 * 24)
+    var horast = dia + n2
+    alert("Total de horas é: " + horast)
+
+    function refreshPage() {
+      window.location.reload();
+    }
+
+  </script>
+</head>
+
+<body>
+  <h1>Exercício 04<h1>
+      <button type="submit" onClick="refreshPage()">Refresh Button</button>
+
+</body>
+
+</html>
