@@ -7,7 +7,7 @@ btnSimular.addEventListener('click', function(){
     frmModelo = modelo.value 
     frmValor = valor.value
     divMostrar = document.getElementById('mostrarSimulacao')
-    alert('Cadastrado com sucesso')
+    alert('Simulação em processamento!')
    
     divMostrar.innerHTML = `
         <div>Modelo: <strong>${frmModelo}</strong></div>

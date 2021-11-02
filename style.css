@@ -1,0 +1,37 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  background-color: #ffe604;
+}
+h1 {
+  font-family: "Open Sans", cursive;
+  color: #000000;
+}
+.conteiner {
+  min-height: 700px;
+  max-width: 1024px;
+  margin: 0 auto;
+  /*justificar o conteúdo com espaço entre eles*/
+  padding-top: 80px;
+  margin-top: -0.5em; /*tirar os espaço em branco do topo do menu*/
+}
+.bg-primary {
+  background-color: #000000 !important;
+}
+
+.formulário {
+  text-decoration: black;
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+.form-control {
+  text-decoration: black;
+  width: 68px;
+  margin: 3px 0;
+}
+.btnform {
+  text-decoration: black;
+  margin-left: 25rem;
+  margin-top: 1rem;
+}
