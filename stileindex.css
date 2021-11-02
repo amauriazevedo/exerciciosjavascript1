@@ -1,0 +1,27 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: #f1d995;
+}
+h1 {
+  font-weight: bold;
+  margin-left: 30%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: "Open Sans", cursive;
+  color: #ffffff;
+}
+.logo {
+  margin-left: 38%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.linkexercicios {
+  font-weight: bold;
+  margin-left: 30%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: "Open Sans", cursive;
+  color: #ffffff;
+}
