@@ -20,67 +20,72 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Meu CSS -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="small.css">
+  <link rel="stylesheet" href="med.css">
+  <link rel="stylesheet" href="nomal.css">
   <script src="vendaveiculos.js" async></script>
 </head>
 
+<div class="tamanhotela">
 
-<body>
-  <!-- NAVEBAR -->
-  <!-- Blue with white text -->
-  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link"><img src="img/car (1).png" height="40px" width="auto" alt=""></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Comprar</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Vender</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Financiar</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contato</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link"><img src="img/car (1).png" height="40px" width="auto" alt=""></a>
-      </li>
-    </ul>
-  </nav>
+  <body>
+    <!-- NAVEBAR -->
+    <!-- Blue with white text -->
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link"><img src="img/car (1).png" height="40px" width="auto" alt=""></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Comprar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Vender</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Financiar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"><img src="img/car (1).png" height="40px" width="auto" alt=""></a>
+        </li>
+      </ul>
+    </nav>
 
 
-  <!-- FORMULÁRIO -->
-  <div class=" conteiner">
-    <div class="d-flex">
+    <!-- FORMULÁRIO -->
+    <div class=" conteiner">
+      <div class="d-flex">
 
-      <div class=" formulário">
-        <form class="form-inline" action="/action_page.php">
-          <form name="simulacao">
-            <div class="form-group">
-              <label for="modelo">Modelo do Carro: </label>
-              <input type="modelo" class="form-control" id="modelo" required>
-            </div>
-            <div class="form-group">
-              <label for="valor">Valor do Carro:</label>
-              <input type="valor" class="form-control" placeholder="R$" id="valor" required>
-            </div>
-            <div class="btnform">
-              <button type="button" value="simular" class="btn btn-dark" id="btnSimular">Simular</button>
-            </div>
+        <div class=" formulário">
+          <form class="form-inline" action="/action_page.php">
+            <form name="simulacao">
+              <div class="form-group">
+                <label for="modelo">Modelo do Carro: </label>
+                <input type="modelo" class="form-control" id="modelo" required>
+              </div>
+              <div class="form-group">
+                <label for="valor">Valor do Carro:</label>
+                <input type="valor" class="form-control" placeholder="R$" id="valor" required>
+              </div>
+              <div class="btnform">
+                <button type="button" value="simular" class="btn btn-dark" id="btnSimular">Simular</button>
+              </div>
+            </form>
           </form>
-        </form>
+        </div>
+        <div class="p-2 flex-grow-1"><img
+            src="img/kisspng-used-car-jeep-automobile-salesperson-car-dealershi-sales-person-5b16383833b3b9.1260362815281828402118.png"
+            alt="" height="280px" width="auto"></div>
       </div>
-      <div class="p-2 flex-grow-1"><img
-          src="img/kisspng-used-car-jeep-automobile-salesperson-car-dealershi-sales-person-5b16383833b3b9.1260362815281828402118.png"
-          alt="" height="280px" width="auto"></div>
+      <hr>
+      <h1>Simulação</h1>
+      <div id="mostrarSimulacao">
+      </div>
     </div>
-    <hr>
-    <h1>Simulação</h1>
-    <div id="mostrarSimulacao">
-    </div>
-  </div>
-</body>
+  </body>
+</div>
 
 </html>

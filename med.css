@@ -1,0 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.tamanhotela {
+  @media (max-width: 400px) {
+      display: block;
+  }

@@ -1,0 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.tamanhotela {
+  position: relative;
+  margin: 0 auto;
+  height: 500px;
+}
