@@ -5,14 +5,13 @@ function balanca () {
     const resultado = document.getElementById('resultado');
 
     if (numero !== '') {
-        const total = (numero / 2);
-    if (numero & 1) {
-      const total = (numero / 2);
-      resultado.textContent = `impar`;
+        const valorHoraMin = numero;
+        const parImpar = (numero % 2 == 0) ? "Par" : "Ímpar" 
 
-    }else (numero & 1) {
-       resultado.textContent = `par`;
+         resultado.textContent = `O número digitado é:  ${valorHoraMin}, que é: ${parImpar}`;
         
+    }else {
+        resultado.textContent = 'Preencha todos os campos!!!';
     }
 
 }
